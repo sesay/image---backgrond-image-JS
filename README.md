@@ -1,8 +1,8 @@
 # image[img] to backgrond-image-JS
-Covert img  to Background image  JS
+# Covert img  to Background image  JS
 
-# $('selector-name').each(function () {
-#  var $container = $(this),
+$('selector-name').each(function () {
+var $container = $(this),
                 imgUrl = $container.find('img').prop('src');
             if (imgUrl) {
               $container
